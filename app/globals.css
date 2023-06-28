@@ -43,4 +43,21 @@ input {
   outline: none;
 }
 
- 
+.animation-bounce-in-right {
+  animation: bounce-in-out 3s forwards ease-in-out ;
+}
+
+@keyframes bounce-in-out {
+  0% {
+      transform: translateX(130%);
+  }
+  10% {
+      transform: translateX(0);
+  }
+  90% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(200%);
+  }
+}
