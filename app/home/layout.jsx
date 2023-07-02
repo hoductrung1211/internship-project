@@ -11,6 +11,7 @@ export default function Layout({
                 <Link className="h-6 px-3 bg-white rounded-md" href={routerPath.customers}>Customer</Link>
                 <Link className="h-6 px-3 bg-white rounded-md" href={routerPath.productCategories}>Product Categories</Link>
                 <Link className="h-6 px-3 bg-white rounded-md" href={routerPath.products}>Products</Link>
+                <Link className="h-6 px-3 bg-white rounded-md" href={routerPath.components}>Components</Link>
                 <Link className="h-6 px-3 bg-white rounded-md" href={"/"}>Log out</Link>
             </aside>
             {children}
